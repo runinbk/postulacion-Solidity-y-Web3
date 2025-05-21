@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cash Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    #app {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      padding: 0.5rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+    }
+    #change-due {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h2>Cash Register</h2>
+    <p>Item Price: $19.50</p>
+    <input id="cash" type="number" placeholder="Enter cash provided" />
+    <br />
+    <button id="purchase-btn">Purchase</button>
+    <div id="change-due"></div>
+  </div>
+
+  <script src="5-Build-a-Cash-Register.js"></script>
+</body>
+</html>
